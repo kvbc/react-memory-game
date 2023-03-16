@@ -1,12 +1,12 @@
 {
-  "name": "memory",
+  "name": "memory-game",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://kvbc.github.io/react-memory-game",
+  "homepage": "https://kvbc.github.io/react-memory-game/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
